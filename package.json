@@ -1,7 +1,7 @@
 {
   "name": "env-setup-server",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dbcxx/Env-setup-server.git"
@@ -15,8 +15,8 @@
   "homepage": "https://github.com/dbcxx/Env-setup-server#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "keywords": [],
   "dependencies": {
